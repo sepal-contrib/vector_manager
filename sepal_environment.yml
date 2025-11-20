@@ -5,6 +5,7 @@ channels:
 dependencies:
   - python=3.10
   - pyproj  # Always include to avoid PROJ conflicts
+  - gdal=3.8.3
   - wheel
   - rasterio
   - geopandas
